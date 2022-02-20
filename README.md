@@ -1,3 +1,3 @@
 # Electron Commander
 
-### File manager built with Electron and Vanila JavaScript
+### File manager built with Electron and Vanilla JavaScript
