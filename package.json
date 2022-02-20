@@ -1,0 +1,26 @@
+{
+  "name": "ec",
+  "version": "0.0.1",
+  "description": "File manager built with Electron and Vanila JavaScript",
+  "main": "index.js",
+  "scripts": {
+    "dev": "electromon src/main.js",
+    "start": "electron src/main.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/EdwardFalcon/ec.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/EdwardFalcon/ec/issues"
+  },
+  "homepage": "https://github.com/EdwardFalcon/ec#readme",
+  "devDependencies": {
+    "electromon": "^1.0.10",
+    "electron": "^17.0.1",
+    "eslint": "^8.9.0",
+    "prettier": "2.5.1"
+  }
+}
