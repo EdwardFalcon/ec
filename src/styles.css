@@ -32,6 +32,7 @@ main {
   padding: 5px;
   font-family: monospace;
   font-size: 16px;
+  width: 100%;
 }
 
 .panel select {
@@ -50,7 +51,23 @@ main {
   outline: none;
 }
 
+.panel select option:target {
+  background-color: aqua;
+}
+
 .panel select option:checked {
   color: #ffffff;
   background-color: #1525c7;
+}
+
+.item-file {
+  color: #60fdff;
+}
+
+.item-directory {
+  color: #ffffff;
+}
+
+.item-hidden-file {
+  color: #c7c7c7;
 }
